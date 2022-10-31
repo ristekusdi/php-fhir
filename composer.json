@@ -1,0 +1,20 @@
+{
+    "name": "ristekusdi/php-fhir",
+    "description": "PHP classes from the HL7 FHIR Specification",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Riset dan Teknologi USDI",
+            "email": "usdi@unud.ac.id",
+            "homepage": "https://usdi.unud.ac.id"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "RistekUSDI\\FHIR\\": "src/"
+        }
+    }
+}
